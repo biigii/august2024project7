@@ -1,23 +1,8 @@
-button {
-  width: 220px;
-  height: 80px;
-  font-size: 30px;
-  background-color: #fff;
-  color: #f33;
-  border: 2px solid;
-  /* transition-property: background-color; */
-  /* default duration should be between 200ms-500ms */
-  /* transition-duration: 0.5s; 500ms */
-  /* transition-timing-function: ease-in-out; */
-  /* transition: background-color 500ms ease-in-out; */
-
-  transition-property: color, "background-color";
-  transition-duration: 500ms;
-}
-
-/* pseudo class hover  */
-
-button:hover {
-  background-color: #f33;
-  color: #fff;
+.box {
+    display: block;
+    background-color: #f99;
+    width: 400px;
+    border: 10px solid;
+    padding: 20px;
+    margin: 50px;
 }
