@@ -4,11 +4,6 @@ header {
   margin-bottom: 100px;
 }
 
-footer {
-  height: 200px;
-  background-color: #eee;
-}
-
 nav {
   height: 100%;
   text-align: center;
@@ -28,12 +23,12 @@ nav a:hover {
   color: #f00;
 }
 
-button {
-  width: 150px;
-  height: 40px;
-  background-color: #fff;
-  border: 3px solid #000;
-  margin-bottom: 100px;
-  /* display: block;
-  margin-left: auto; */
+img.image-1 {
+    float: left;
+    margin-right: 20px;
 }
+
+img.image-2 {
+    float: right;
+}
+
