@@ -3,3 +3,10 @@
     margin: 0 auto;
     padding: 0 10px;
 }
+
+p {
+    width: 50%;
+    float: left;
+    /* border: 3px dashed; */
+    padding: 0 5px;
+}
