@@ -1,0 +1,15 @@
+body {
+    background-color: var(--secondary-color);
+}
+
+header,
+footer {
+    height: 100px;
+    background-color: var(--primary-color);
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: var(-primary-color);
+}
+

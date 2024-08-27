@@ -1,0 +1,10 @@
+/* pseudo class  :hover, :root*/
+
+/* root is alias for <html> */
+:root {
+    /*css variables  */
+    /* --branding: #00f; */
+    --primary-color: #00f;
+    --secondary-color: #dee;
+    --heading-alignment: center;
+}
