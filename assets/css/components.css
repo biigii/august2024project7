@@ -1,48 +1,39 @@
 header {
-  height: 120px;
+  background-color: #eee;
+  height: 150px;
+  margin-bottom: 100px;
+}
+
+footer {
+  height: 200px;
   background-color: #eee;
 }
 
 nav {
   height: 100%;
   text-align: center;
+  line-height: 150px;
 }
 
-a {
-  /* default display is inline */
-  border: 5px solid #000;
-  background-color: #f33;
-  /* inline element DO NOT accept width and height */
-  /* display: block; */
-  /* display: inline-block; */
-  width: 120px;
-  height: 50px;
-
-  /* margin left and right work on inline elements */
-  /* margin-left: 50px;
-    margin-right: 50px; */
-
-  /* margin top and bottom do not work on inline elm */
-  /* margin-top: 50px;
-    margin-bottom: 50px; */
-
-  /* padding left right works just fine */
-  /* padding-left: 50px;
-  padding-right: 50px; */
-  /* padding top and bottom sort of works */
-  padding-top: 200px;
-  padding-bottom: 700px;
+nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+  margin-left: 50px;
+  margin-right: 50px;
+  transition: color 500ms;
 }
 
-h2 {
-  text-align: center;
-  /* all box model properties worked fine on display block */
-  background-color: #0f0;
-  /* width: 200px; */
-  height: 150px;
-  /* padding: 20px; */
-  padding-bottom: 300px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border: 5px solid;
+nav a:hover {
+  color: #f00;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #fff;
+  border: 3px solid #000;
+  margin-bottom: 100px;
+  /* display: block;
+  margin-left: auto; */
 }
