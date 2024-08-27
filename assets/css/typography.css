@@ -1,9 +1,0 @@
-h1,
-h3 {
-    color: var(--primary-color);
- text-align: var(--heading-alignment);
-}
-
-a {
-    color: var(--secondary-color);
-}

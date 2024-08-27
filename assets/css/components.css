@@ -1,15 +1,23 @@
-body {
-    background-color: var(--secondary-color);
-}
-
-header,
-footer {
-    height: 100px;
-    background-color: var(--primary-color);
-}
-
 button {
-    background-color: var(--secondary-color);
-    color: var(-primary-color);
+  width: 220px;
+  height: 80px;
+  font-size: 30px;
+  background-color: #fff;
+  color: #f33;
+  border: 2px solid;
+  /* transition-property: background-color; */
+  /* default duration should be between 200ms-500ms */
+  /* transition-duration: 0.5s; 500ms */
+  /* transition-timing-function: ease-in-out; */
+  /* transition: background-color 500ms ease-in-out; */
+
+  transition-property: color, "background-color";
+  transition-duration: 500ms;
 }
 
+/* pseudo class hover  */
+
+button:hover {
+  background-color: #f33;
+  color: #fff;
+}
